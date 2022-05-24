@@ -1,6 +1,7 @@
 #include <vector>
 #include <queue>
 #include <iostream>
+#include <algorithm>
 using namespace std;
 class Node{
     public:
@@ -23,4 +24,5 @@ void best_wishes(Node root, vector<int> & ara){
         }
         q.pop();
     }
+    reverse(ara.begin(), ara.end());
 }
