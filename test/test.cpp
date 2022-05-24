@@ -38,15 +38,15 @@ TEST(Tree, preoder)
   std::vector<int> res;
   best_wishes(f11, rez);
 
-  ASSERT_EQ(array[0], 1);
-  ASSERT_EQ(array[1], 12);
-  ASSERT_EQ(array[2], 44);
-  ASSERT_EQ(array[3], 13);
-  ASSERT_EQ(array[4], 15);
-  ASSERT_EQ(array[5], 16);
-  ASSERT_EQ(array[6], 7);
-  ASSERT_EQ(array[7], 8);
-  ASSERT_EQ(array[8], 100);
-  ASSERT_EQ(array[9], 805);
-  ASSERT_EQ(array[10], 601);
+  ASSERT_EQ(rez[0], 1);
+  ASSERT_EQ(rez[1], 12);
+  ASSERT_EQ(rez[2], 44);
+  ASSERT_EQ(rez[3], 13);
+  ASSERT_EQ(rez[4], 15);
+  ASSERT_EQ(rez[5], 16);
+  ASSERT_EQ(rez[6], 7);
+  ASSERT_EQ(rez[7], 8);
+  ASSERT_EQ(rez[8], 100);
+  ASSERT_EQ(rez[9], 805);
+  ASSERT_EQ(rez[10], 601);
 }

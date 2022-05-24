@@ -1,0 +1,1 @@
+[![Coverage Status](https://coveralls.io/repos/github/eqweqr/dxd/badge.svg?branch=master)](https://coveralls.io/github/eqweqr/dxd?branch=master)
