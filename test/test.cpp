@@ -36,7 +36,7 @@ TEST(Tree, preoder)
   tr5.push_back(f10);
   Node f11(1, tr5);
   std::vector<int> res;
-  best_wishes(f11, rez);
+  best_wishes(f11, res);
 
   ASSERT_EQ(rez[0], 1);
   ASSERT_EQ(rez[1], 12);
