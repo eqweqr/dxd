@@ -39,14 +39,14 @@ TEST(Tree, preoder)
   best_wishes(f11, rez);
 
   ASSERT_EQ(rez[0], 601);
-  ASSERT_EQ(rez[1], 805);
-  ASSERT_EQ(rez[2], 100);
-  ASSERT_EQ(rez[3], 8);
+  ASSERT_EQ(rez[1], 15);
+  ASSERT_EQ(rez[2], 16);
+  ASSERT_EQ(rez[3], 12);
   ASSERT_EQ(rez[4], 7);
-  ASSERT_EQ(rez[5], 16);
-  ASSERT_EQ(rez[6], 15);
-  ASSERT_EQ(rez[7], 13);
-  ASSERT_EQ(rez[8], 44);
-  ASSERT_EQ(rez[9], 12);
+  ASSERT_EQ(rez[5], 44);
+  ASSERT_EQ(rez[6], 8);
+  ASSERT_EQ(rez[7], 100);
+  ASSERT_EQ(rez[8], 805);
+  ASSERT_EQ(rez[9], 13);
   ASSERT_EQ(rez[10], 1);
 }
